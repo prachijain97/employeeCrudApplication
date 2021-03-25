@@ -19,7 +19,7 @@ There are three modules in this application
 - Use command `mvn spring-boot:run` from `employeeservImplementation` folder to run the project.
 - Use postman or curl to access `http://localhost:8080/v1/bfs/employees/1` GET endpoint. It will return an Employee resource.
 
-## Assignment
+## task
 We would like you to enhance the existing project and see you complete the following requirements:
 
 - `employee.json` has only `name`, and `id` elements. Please add `date of birth` and `address` elements to the `Employee` resource. Address will have `line1`, `line2`, `city`, `state`, `country` and `zip_code` elements. `line2` is an optional element.
@@ -30,6 +30,3 @@ We would like you to enhance the existing project and see you complete the follo
 - Please make sure the validations are done for the requests.
 - Response codes are as per rest guidelines.
 - Error handling in case of failures.
-
-## Assignment submission
-Thank you very much for your time to take this test. Please upload this complete solution in Github and send us the link to `bfs-sor-interview@paypal.com`.
